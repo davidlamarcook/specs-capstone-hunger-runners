@@ -1,13 +1,19 @@
-body {
-    background-color: #F6C242;
+.app {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
 }
 
 #landingPageContainer {
+    background-color: #F6C242;
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 20px;
    margin-top: 50px;
+   height: 100%;
 }
 
 #landingPageContent {
@@ -47,6 +53,7 @@ p {
 
 #signUpBtn {
     background-color: white;
+    width: 200px;
 }
 
 #loginBtn {

@@ -1,0 +1,50 @@
+#loginPageImgContainer{
+    width: 300px;
+}
+
+#loginContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#loginContent {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#formContent {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+input {
+    width: 200px;
+
+}
+
+.inputLabel {
+    font-size: 32px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3px;
+}
+
+button {
+    margin-top: 7px;
+    width: 25%;
+}
+
+#login-h2-tag {
+    font-size: 40px;
+    height: 20px;
+    text-decoration: underline;
+}
