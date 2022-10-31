@@ -14,12 +14,12 @@ function LandingPage(){
                 <h3>Order food without leaving your seat!</h3>
                 <strong><p>Sign in now to get food delivered without missing the game.</p></strong>
                 <div className="landingPageBtns">
-                <Link to='/signup' className="landingPageLinkBtns">
-                    <span id="signUpBtn">Sign Up</span>
-                </Link>
-                <Link to='/login' className="landingPageLinkBtns">
-                    <span id="loginBtn">Login</span>
-                </Link>
+                    <Link to='/signup' className="landingPageLinkBtns">
+                        <span id="signUpBtn">Sign Up</span>
+                    </Link>
+                    <Link to='/login' className="landingPageLinkBtns" id="loginBtn">
+                        <span>Login</span>
+                    </Link>
                 </div>
             </div>
         </div>
