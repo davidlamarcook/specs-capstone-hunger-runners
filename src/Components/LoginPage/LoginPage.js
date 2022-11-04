@@ -1,8 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import './LoginPage.css'
 
 function LoginPage() {
 
+    const [username, setUserName] = useState("");
+    const [password, setPassword] = useState("");
 
     return(
         <div id="loginContainer">
