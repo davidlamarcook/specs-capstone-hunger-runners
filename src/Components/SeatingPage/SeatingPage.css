@@ -1,0 +1,32 @@
+#seatingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 15px;
+}
+
+#seatingInputField {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#seatingHeader {
+   margin-bottom: 0px;
+   text-decoration: underline;
+   font-size: 32px;
+}
+
+.input-p {
+    margin: 5px;
+    font-weight: bold;
+}
+
+#submitLink {
+    color: black;
+    width: 75px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+}
