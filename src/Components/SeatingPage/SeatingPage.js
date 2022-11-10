@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom"
 import './SeatingPage.css'
+import axios from "axios";
 
 function SeatPage(){
 
@@ -13,6 +14,10 @@ function SeatPage(){
         row,
         seat
     }
+
+    // const handleSeatSubmit = () => {
+    //     axios.post('http://localhost:4040/seat', body)
+    // }
 
     return (
         <div id="seatingContainer">
@@ -27,7 +32,7 @@ function SeatPage(){
                 <input onChange={(e) => setRow(e.target.value)}/>
                 <p className="input-p">What is your seat?</p>
                 <input onChange={(e) => setSeat(e.target.value)}/>
-                <Link id="submitLink">
+                <Link to="/mainpage" id="submitLink">
                     <span>Submit</span>
                 </Link>
             </div>

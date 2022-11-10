@@ -3,11 +3,11 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const { Sequelize } = require("sequelize")
+const mainpagectrl = require('./controllers/MainPageController')
 
 const app = express();
 
 const {SERVER_PORT, CONNECTION_STRING} = process.env;
-console.log({SERVER_PORT, CONNECTION_STRING});
 
 //MIDDLEWARE 
 app.use(express.json());
@@ -28,6 +28,7 @@ sequelize.authenticate().then(() => {
     });
 
     //ENDPOINTS
+    app.get('/getRestaurants', mainpagectrl.getRestaurants)
 
     //APP LISTEN
     app.listen(SERVER_PORT, () => {
