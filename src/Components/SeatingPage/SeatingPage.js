@@ -22,7 +22,7 @@ function SeatPage(){
     return (
         <div id="seatingContainer">
             <div id="imageContainer">
-                <img src={require("../../images/Hunger-Runner-White-Logo.png")} alt="Hunger Runners Logo" id="loginPageImgContainer"/>
+                <img src={`${process.env.PUBLIC_URL}/images/Hunger-Runner-White-Logo.png`} alt="Hunger Runners Logo" id="loginPageImgContainer"/>
             </div>
             <div id="seatingInputField">
                 <h2 id="seatingHeader">First, Tell us where you are!</h2>
@@ -38,6 +38,6 @@ function SeatPage(){
             </div>
         </div>
     )
-}
+}   
 
 export default SeatPage;

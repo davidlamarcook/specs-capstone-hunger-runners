@@ -7,7 +7,7 @@ function LandingPage(){
         <div id="landingPageContainer">
             <style>{'body { background-color: #f6c242; }'}</style>
             <div id="logo-container">
-                <img src={require("../../images/Hungry-Runners-Logo-2.png")} alt="Hunger Runners Logo"/>
+                <img src={`${process.env.PUBLIC_URL}/images/Hungry-Runners-Logo-2.png`} alt="Hunger Runners Logo"/>
             </div>
             <div id="landingPageContent">
                 <h1>Hunger Runners</h1>

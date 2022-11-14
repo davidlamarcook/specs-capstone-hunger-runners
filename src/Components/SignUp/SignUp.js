@@ -9,7 +9,8 @@ function SignUp() {
     return (
         <div id="sign-in-container">
             <div id="sign-in-picture-container">
-                <img src={require("../../images/Hunger-Runner-White-Logo.png")} alt="Hunger Runners Logo" id="loginPageImgContainer"/>
+                <img src={`${process.env.PUBLIC_URL}/images/Hunger-Runner-White-Logo.png`} alt="Hunger Runners Logo" id="loginPageImgContainer"/>
+
             </div>
             <div>
                 <h2 id="sign-in-h2">Welcome! Create an account and start ordering!</h2>
