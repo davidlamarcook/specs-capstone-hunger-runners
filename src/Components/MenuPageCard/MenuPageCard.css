@@ -27,3 +27,8 @@
     left: 225px;
     border-radius: 50%;
 }
+
+#addToMenuBtn:hover {
+    background-color: black;
+    color: #f6c242;
+}
