@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import { useParams } from "react-router";
 import axios from "axios";
 import MainPageCard from "../MainPageCard/MainPageCard";
 

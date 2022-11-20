@@ -29,6 +29,7 @@ sequelize.authenticate().then(() => {
 
     //ENDPOINTS
     app.get('/getRestaurants', mainpagectrl.getRestaurants)
+    app.get('/getMunuPage/:id', mainpagectrl.getMenuPage)
 
     //APP LISTEN
     app.listen(SERVER_PORT, () => {
