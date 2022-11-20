@@ -1,0 +1,29 @@
+#menuCardContainer {
+    display: flex;
+}
+
+#menuCardContent {
+    width: 300px;
+    margin-left: 10px;
+}
+
+#menuCardContent h1 {
+    font-size: 26px;
+    height: 45px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+#menuCardContent-h2 {
+    margin-top: 5px;
+}
+
+#addToMenuBtn {
+    background-color:  #f6c242;
+    height: 50px;
+    width: 50px;
+    font-size: 32px;
+    position: relative;
+    left: 225px;
+    border-radius: 50%;
+}
