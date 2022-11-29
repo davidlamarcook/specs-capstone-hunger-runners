@@ -1,0 +1,51 @@
+#bannerContainer {
+    margin-bottom: 50px;
+}
+
+#bannerImageFood {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    margin-top: 25px;
+}
+
+#bannerImageLogo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 75px;
+    left: 20px;
+}
+
+#bannerContainerImages {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -60px;
+}
+
+#bannerContainerContext {
+    display: flex;
+    align-items: center;
+}
+
+#bannerContexth1 {
+    margin-top: 0px;
+    text-decoration: none;
+    font-size: 64px;
+    margin-right: 10px;
+}
+
+#menuPageContainer {
+    width: 1200px;
+}
+
+#menuListDiv {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    gap: 30px;
+}

@@ -11,6 +11,7 @@ function MenuPageCard(props) {
     const eventHandler = () => {
         setCart([...cart, { id: props.menuItemList.food_item_id, name: props.menuItemList.food_item_name, price: props.menuItemList.food_item_price}])
     }
+    
     useEffect(() => {
         // console.log('cart changed')
         console.log(cart)

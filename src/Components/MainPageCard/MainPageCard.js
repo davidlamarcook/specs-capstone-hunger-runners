@@ -18,7 +18,7 @@ function MainPageCard(props) {
             </div>
             <div id="mainPageCardContextContainer">
                 <h3 className="mainPageCardh3">{props.restaurant.restaurant_name}</h3>
-                <h3 className="mainPageCardh3">Delviery Fee: {props.restaurant.restaurant_delivery_fee}</h3>
+                <h3 className="mainPageCardh3">Delivery Fee: {props.restaurant.restaurant_delivery_fee}</h3>
                 <Link to={`/menupage/${props.restaurant.restaurant_id}`} id="menuPageLink"><p id="menuPTag">View Menu</p></Link>
             </div>
         </div>
