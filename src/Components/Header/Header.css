@@ -1,0 +1,26 @@
+#headerContainer {
+    background-color: #f6c242;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#headerContext {
+    display: flex;
+    gap: 20px;
+}
+
+#headerNav {
+    display: flex;
+    gap: 10px;
+}
+
+#headerImg {
+    width:100px
+}
+
+#headerTitle {
+    font-size: 40px;
+    text-decoration: underline;
+}

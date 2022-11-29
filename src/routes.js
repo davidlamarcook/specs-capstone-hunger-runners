@@ -6,6 +6,7 @@ import SignUp from "./Components/SignUp/SignUp";
 import MainPage from "./Components/MainPage/MainPage";
 import SeatPage from "./Components/SeatingPage/SeatingPage";
 import MenuPage from "./Components/MenuPage/MenuPage";
+import CartPage from "./Components/CartPage/CartPage";
 
 export default (
     <Routes>
@@ -15,5 +16,6 @@ export default (
         <Route path="/mainpage" element={<MainPage />} />
         <Route path="/seating" element={<SeatPage />} />
         <Route path="/menupage/:menu" element={<MenuPage />} />
+        <Route path="/cart" element={<CartPage />} />
     </Routes>
 )

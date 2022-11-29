@@ -3,6 +3,7 @@ import {useParams} from 'react-router-dom';
 import axios from "axios";
 import MenuPageCard from "../MenuPageCard/MenuPageCard";
 import './MenuPage.css'
+import Header from "../Header/Header";
 
 function MenuPage() {
     
@@ -21,6 +22,8 @@ function MenuPage() {
     console.log('yoyoyo', menuList)
 
     return (
+        <>
+        <Header />
         <div id="menuPageContainer">
             <div id="bannerContainer">
                 <div id="bannerContainerImages">
@@ -36,6 +39,7 @@ function MenuPage() {
                 {menuList.length && menuList.map((menuItemList) => <MenuPageCard key={menuItemList.food_item_id} menuItemList={menuItemList}/>)}
             </div>
         </div>
+        </>
     ) 
 }
 

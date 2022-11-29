@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import { useParams } from "react-router";
 import axios from "axios";
 import MainPageCard from "../MainPageCard/MainPageCard";
+import Header from "../Header/Header";
 
 function MainPage() {
 
@@ -13,7 +14,10 @@ function MainPage() {
     }, [])
 
     return (
-       restaurants.length && restaurants.map((restaurant) => <MainPageCard key={restaurant.restaurant_id} restaurant={restaurant}/>)
+        <>
+        <Header />
+       {restaurants.length && restaurants.map((restaurant) => <MainPageCard key={restaurant.restaurant_id} restaurant={restaurant}/>)}
+       </>
     )
 };
 
