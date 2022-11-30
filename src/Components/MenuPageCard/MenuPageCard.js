@@ -13,9 +13,8 @@ function MenuPageCard(props) {
     }
     
     useEffect(() => {
-        // console.log('cart changed')
-        console.log(cart)
-        // console.log(setCart)
+        localStorage.setItem('cart', JSON.stringify(cart));
+        //console.log(cart)
     },[cart])                       
 
     return (
