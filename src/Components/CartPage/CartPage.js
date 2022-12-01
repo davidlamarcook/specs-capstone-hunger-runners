@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { CartContext } from '../../cart-context'
+import CartPageCard from "../CartPageCard/CartPageCard";
 
 function CartPage() {
 
@@ -12,7 +13,9 @@ function CartPage() {
 
     return (
         <>
-            {cart.map((item) => <h1 key={item.id}>{item.name}</h1>)}
+            <style>{' #root { margin: 40px; }'}</style>
+            {cart.length ? <h1>Your Cart</h1> : <h1>It looks like your cart is empty!</h1>}
+            {cart.length && cart.map((item) => <CartPageCard key={item.id} item={item}/>)}
         </>
     )
 }

@@ -1,0 +1,12 @@
+#cartPageList {
+    display: flex;
+    align-items: center;    
+    gap: 10px;
+    height: 100px;
+    text-align: center;
+}
+
+#cartPageList-P{
+    font-size: 40px;
+   padding-top: 60px;
+}
