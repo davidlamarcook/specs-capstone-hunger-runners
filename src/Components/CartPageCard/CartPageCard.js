@@ -9,7 +9,7 @@ export default function CartPageCard(props){
         <div id="cartPageList">
             <h1 id="cartPage-h1">{props.item.name} |</h1>
             <p id="cartPageList-P">${props.item.price}</p>
-            <button onClick={props.removeItem}>Remove Item</button>
+            <button onClick={props.removeItem} id='removeBtn'>Remove Item</button>
         </div>
     )
 };

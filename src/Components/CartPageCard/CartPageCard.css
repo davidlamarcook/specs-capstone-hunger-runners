@@ -14,3 +14,9 @@
     font-size: 40px;
    padding-top: 70px;
 }
+
+#removeBtn {
+    width:100px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
