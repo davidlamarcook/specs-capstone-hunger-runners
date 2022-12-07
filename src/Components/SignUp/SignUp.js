@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./SignUp.css"
+import {Link} from "react-router-dom";
 
 function SignUp() {
 
@@ -19,7 +20,9 @@ function SignUp() {
                 <h3 className="sign-in-h3">Enter in a password:</h3>
                 <input onChange={(e) => setPassword(e.target.value)}/>
                 <br/>
-                <button id="register-user-btn">Register User</button>
+                <Link to='/seating' className="landingPageLinkBtns" id="registerBtn">
+                    <span>Register User</span>
+                </Link>
             </div>
         </div>
     )

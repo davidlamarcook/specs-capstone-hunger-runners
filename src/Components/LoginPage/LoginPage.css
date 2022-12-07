@@ -48,3 +48,10 @@ button {
     height: 20px;
     text-decoration: underline;
 }
+
+#registerBtn {
+    background-color: #f6c242;
+    color: black;
+    padding: 3px;
+    margin-top: 5px;
+}

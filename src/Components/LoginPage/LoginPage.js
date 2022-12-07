@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './LoginPage.css'
+import {Link} from "react-router-dom";
+
 
 function LoginPage() {
 
@@ -19,7 +21,10 @@ function LoginPage() {
                         <input type="text" />
                         <label className="inputLabel"> Password: </label>
                         <input type="password" />
-                        <button>Submit</button>
+                        {/* <button>Submit</button> */}
+                        <Link to='/seating' className="landingPageLinkBtns" id="registerBtn">
+                            <span>Login</span>
+                        </Link>
                     </form>
                 </div>
             </div>
