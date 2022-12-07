@@ -18,8 +18,6 @@ function MenuPage() {
         .then(res => setMenuList(res.data))
     },[])
 
-    console.log('yoyoyo', menuList)
-
     return (
         <>
         <Header />
