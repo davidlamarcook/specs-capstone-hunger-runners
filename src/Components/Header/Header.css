@@ -9,11 +9,12 @@
 #headerContext {
     display: flex;
     gap: 20px;
+    margin-left: -100px;
 }
 
 #headerNav {
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
 #headerImg {

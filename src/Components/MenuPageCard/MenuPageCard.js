@@ -9,7 +9,8 @@ function MenuPageCard(props) {
 
 
     const eventHandler = () => {
-        setCart([...cart, { id: props.menuItemList.food_item_id, name: props.menuItemList.food_item_name, price: props.menuItemList.food_item_price}])
+        setCart([...cart, { id: props.menuItemList.food_item_id, name: props.menuItemList.food_item_name, price: props.menuItemList.food_item_price}]);
+        alert('Added to cart')
     }
     
     useEffect(() => {

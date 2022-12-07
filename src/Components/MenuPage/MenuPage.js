@@ -14,7 +14,6 @@ function MenuPage() {
    const [menuList, setMenuList] = useState([])
 
     useEffect(() => {
-        localStorage.setItem('hola', 'my name is parker');
         axios.get(`http://localhost:3000/getMunuPage/${menu}`)
         .then(res => setMenuList(res.data))
     },[])
