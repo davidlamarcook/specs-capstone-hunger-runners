@@ -28,7 +28,7 @@ function CartPage() {
             <div id="cartPageContext">
                 {cart.length ? <h1>Your Cart</h1> : <h1>It looks like your cart is empty!</h1>}
                 {cart.length && cart.map((item) => <CartPageCard key={item.id} item={item} removeItem={() => removeItem(item.id)}/>)}
-                <h3>Your Cart Total: {result}</h3>
+                <h3>Your Cart Total: ${result}</h3>
             </div>
         </>
     )
